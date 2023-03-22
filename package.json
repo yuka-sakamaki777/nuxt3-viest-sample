@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "test": "vitest run",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@vue/test-utils": "^2.3.2",
+    "jsdom": "^21.1.1",
+    "nuxt": "^3.3.1",
+    "nuxt-vitest": "^0.6.9"
+  }
+}
